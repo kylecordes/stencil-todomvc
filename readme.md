@@ -3,7 +3,16 @@
 ## This Implementation
 
 This is a **rough, initial, experimental** implementation of TodoMVC in an early
-version of Stencil, as of early September 2017. There are many open questions:
+version of Stencil, as of early September 2017.
+
+You can try it online:
+
+<https://kylecordes.github.io/stencil-todomvc/>
+
+(The URL breaks on this deployment - Github Pages doesn't support HTML5 SPA URLs
+yet, and the Stencil router doesn't support hash URL yet.)
+
+There are many open questions:
 
 * Is this good, idiomatic use of Stencil?
 * Are there Stencil idioms yet?
