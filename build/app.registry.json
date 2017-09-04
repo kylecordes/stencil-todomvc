@@ -1,0 +1,99 @@
+{
+  "namespace": "App",
+  "components": [
+    [
+      "STENCIL-ROUTE",
+      "if0opbrp",
+      {}
+    ],
+    [
+      "STENCIL-ROUTE-LINK",
+      "if0opbrp",
+      {},
+      0,
+      0,
+      1
+    ],
+    [
+      "STENCIL-ROUTER",
+      "if0opbrp",
+      {},
+      0,
+      0,
+      1
+    ],
+    [
+      "STENCIL-ROUTER-REDIRECT",
+      "if0opbrp",
+      {}
+    ],
+    [
+      "TEST-APP",
+      "imd9xidt",
+      {}
+    ],
+    [
+      "TEST-PAGE",
+      "imd9xidt",
+      {}
+    ],
+    [
+      "TODO-LIST",
+      "1gi10ofh",
+      {
+        "$": "mjr7bkop"
+      },
+      [
+        [
+          "allCompleted",
+          1,
+          1
+        ]
+      ]
+    ],
+    [
+      "TODO-MVC",
+      "1gi10ofh",
+      {
+        "$": "mjr7bkop"
+      },
+      0,
+      [
+        [
+          "deleted",
+          "deleted"
+        ],
+        [
+          "toggledAllCompleted",
+          "toggledAllCompleted"
+        ],
+        [
+          "toggledCompleted",
+          "toggledCompleted"
+        ],
+        [
+          "updatedTitle",
+          "updatedTitle"
+        ]
+      ]
+    ],
+    [
+      "TODO-VIEW",
+      "1gi10ofh",
+      {
+        "$": "mjr7bkop"
+      }
+    ],
+    [
+      "TODO-WELCOME",
+      "1gi10ofh",
+      {
+        "$": "mjr7bkop"
+      }
+    ]
+  ],
+  "loader": "app.js",
+  "global": "app.global.js",
+  "core": "app/app.iv7pfg3s.js",
+  "corePolyfilled": "app/app.m33ntz4w.pf.js"
+}
