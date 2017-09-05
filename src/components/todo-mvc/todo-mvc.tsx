@@ -113,9 +113,6 @@ export class TodoMvc {
 
           <stencil-router id='router'>
             <stencil-route url='/' exact={true}
-              component='todo-welcome' router='#router'
-            />
-            <stencil-route url='/all'
               component='todo-list' router='#router'
               componentProps={{ todos: this.todos, allCompleted: this.allCompleted() }}
             />
@@ -137,7 +134,7 @@ export class TodoMvc {
                 left</span>
               <ul class='filters'>
                 <li>
-                  <stencil-route-link url='/all' router='#router' activeClass='selected'>All</stencil-route-link>
+                  <stencil-route-link url='/' exact={true} router='#router' activeClass='selected'>All</stencil-route-link>
                 </li>
                 <li>
                   <stencil-route-link url='/active' router='#router' activeClass='selected'>Active</stencil-route-link>

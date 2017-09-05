@@ -1,6 +1,6 @@
 exports.config = {
   bundles: [
-    { components: ['todo-welcome', 'todo-mvc', 'todo-list', 'todo-view'] }
+    { components: ['todo-mvc', 'todo-list', 'todo-view'] }
   ],
   collections: [
     { name: '@stencil/router' }
