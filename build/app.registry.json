@@ -39,9 +39,9 @@
     ],
     [
       "TODO-LIST",
-      "1gi10ofh",
+      "gp6wrede",
       {
-        "$": "mjr7bkop"
+        "$": "xrpfxiu3"
       },
       [
         [
@@ -53,9 +53,9 @@
     ],
     [
       "TODO-MVC",
-      "1gi10ofh",
+      "gp6wrede",
       {
-        "$": "mjr7bkop"
+        "$": "xrpfxiu3"
       },
       0,
       [
@@ -79,21 +79,14 @@
     ],
     [
       "TODO-VIEW",
-      "1gi10ofh",
+      "gp6wrede",
       {
-        "$": "mjr7bkop"
-      }
-    ],
-    [
-      "TODO-WELCOME",
-      "1gi10ofh",
-      {
-        "$": "mjr7bkop"
+        "$": "xrpfxiu3"
       }
     ]
   ],
   "loader": "app.js",
   "global": "app.global.js",
-  "core": "app/app.iv7pfg3s.js",
-  "corePolyfilled": "app/app.m33ntz4w.pf.js"
+  "core": "app/app.hdnts8mu.js",
+  "corePolyfilled": "app/app.ncqqwa0x.pf.js"
 }
