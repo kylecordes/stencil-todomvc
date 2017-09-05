@@ -6,8 +6,12 @@
   "files": [
     "dist"
   ],
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
   "scripts": {
     "build": "stencil build",
+    "publish": "npm run build && node scripts/publish.js",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
     "deploy": "stencil build && gh-pages -d www",
     "serve": "stencil-dev-server",
