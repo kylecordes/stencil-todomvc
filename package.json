@@ -1,7 +1,7 @@
 {
   "name": "stencil-todomvc",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TodoMVC via Stencil",
   "files": [
     "dist"
@@ -15,10 +15,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^0.0.5-23",
+    "@stencil/core": "^0.0.6-0",
     "@stencil/dev-server": "^0.0.17",
     "@stencil/router": "0.0.12",
-    "@stencil/utils": "latest",
+    "@stencil/utils": "0.0.4",
     "gh-pages": "^1.0.0",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.4",
