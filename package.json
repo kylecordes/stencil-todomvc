@@ -1,7 +1,7 @@
 {
   "name": "stencil-todomvc",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TodoMVC via Stencil",
   "files": [
     "dist"
@@ -15,24 +15,24 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^0.0.6-0",
-    "@stencil/dev-server": "^0.0.17",
-    "@stencil/router": "0.0.12",
+    "@stencil/core": "0.0.7",
+    "@stencil/dev-server": "0.0.17",
+    "@stencil/router": "0.0.17",
     "@stencil/utils": "0.0.4",
     "gh-pages": "^1.0.0",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.4",
-    "typescript": "2.5.2",
-    "tslint": "^5.7.0"
+    "tslint": "^5.7.0",
+    "typescript": "2.5.2"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kylecordes/stencil-todomvc.git"
+    "url": "git://git@github.com:kylecordes/stencil-todomvc.git"
   },
   "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kylecordes/stencil-todomvc/issues"
   },
   "homepage": "https://github.com/kylecordes/stencil-todomvc"
 }
