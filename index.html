@@ -1,3 +1,27 @@
-<!DOCTYPE html><html dir="ltr" lang="en"><head><style data-styles="">todo-list.💎,todo-mvc.💎{visibility:inherit;}</style> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> <title>Stencil • TodoMVC</title> <link rel="stylesheet" href="todomvc-app-css/index.css"> 
-<meta name="prerendered"><link rel="canonical" href="/"></head> <body> <todo-mvc data-ssrv="0" class="💎"><div data-ssrc="0.0"><section class="todoapp" data-ssrc="0.0"><header class="header" data-ssrc="0.0"><h1 data-ssrc="0.0"><!--s.0.0-->todos<!--/--> </h1><input placeholder="What needs to be done?" class="new-todo" data-ssrc="0.1."></header><stencil-router id="router" data-ssrc="0.1" data-ssrv="1" class="💎"><stencil-route url="/" component="todo-list" router="#router" data-ssrc="0.0." data-ssrv="2" class="💎"><todo-list data-ssrc="2.0." data-ssrv="5" class="💎"><span data-ssrc="5.0."></span></todo-list></stencil-route><stencil-route url="/active" component="todo-list" router="#router" data-ssrc="0.1." data-ssrv="3" class="💎"><span data-ssrc="3.0."></span></stencil-route><stencil-route url="/completed" component="todo-list" router="#router" data-ssrc="0.2." data-ssrv="4" class="💎"><span data-ssrc="4.0."></span></stencil-route></stencil-router><!--s.0.2--><!--/--> </section><footer class="info" data-ssrc="0.1"><p data-ssrc="0.0"><!--s.0.0-->Double-click to edit a todo<!--/--> </p><p data-ssrc="0.1"><!--s.0.0-->Created by <!--/--> <a href="http://kylecordes.com" data-ssrc="0.1"><!--s.0.0-->Kyle Cordes<!--/--> </a><!--s.0.2--> at <!--/--> <a href="https://oasisdigital.com" data-ssrc="0.3"><!--s.0.0-->Oasis Digital<!--/--> </a></p><p data-ssrc="0.2"><!--s.0.0-->Part of <!--/--> <a href="http://todomvc.com" data-ssrc="0.1"><!--s.0.0-->TodoMVC<!--/--> </a></p></footer></div></todo-mvc> <script>/*! Built with http://stenciljs.com */
-!function(e,t,p,d,i,l,o){(e.App=e.App||{}).components=l=l||[],(o=t.createElement("style")).setAttribute("data-styles",""),o.innerHTML=(l.map(function(e){return e[0]}).join(",")+"{visibility:hidden}.💎{visibility:inherit}").toLowerCase(),t.head.insertBefore(o,t.head.firstChild),(o=t.createElement("script")).src=e.customElements&&e.fetch?"build/app/app.hdnts8mu.js":"build/app/app.ncqqwa0x.pf.js",t.head.appendChild(o)}(window,document,0,0,0,[["STENCIL-ROUTE","if0opbrp",{}],["STENCIL-ROUTE-LINK","if0opbrp",{},0,0,1],["STENCIL-ROUTER","if0opbrp",{},0,0,1],["STENCIL-ROUTER-REDIRECT","if0opbrp",{}],["TEST-APP","imd9xidt",{}],["TEST-PAGE","imd9xidt",{}],["TODO-LIST","gp6wrede",{$:"xrpfxiu3"},[["allCompleted",1,1]]],["TODO-MVC","gp6wrede",{$:"xrpfxiu3"},0,[["deleted","deleted"],["toggledAllCompleted","toggledAllCompleted"],["toggledCompleted","toggledCompleted"],["updatedTitle","updatedTitle"]]],["TODO-VIEW","gp6wrede",{$:"xrpfxiu3"}]]);</script></body></html>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Stencil • TodoMVC</title>
+  <link rel="stylesheet" href="todomvc-app-css/index.css">
+  <script src="build/app.js"></script>
+</head>
+
+<body>
+  <todo-mvc></todo-mvc>
+
+  <script>
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('service worker registered', reg))
+          .catch(err => console.log('service worker error', err));
+      });
+    }
+  </script>
+
+</body>
+
+</html>
