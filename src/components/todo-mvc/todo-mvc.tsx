@@ -111,17 +111,17 @@ export class TodoMvc {
             />
           </header>
 
-          <stencil-router id='router'>
+          <stencil-router>
             <stencil-route url='/' exact={true}
-              component='todo-list' router='#router'
+              component='todo-list'
               componentProps={{ todos: this.todos, allCompleted: this.allCompleted() }}
             />
             <stencil-route url='/active'
-              component='todo-list' router='#router'
+              component='todo-list'
               componentProps={{ todos: this.getRemaining(), allCompleted: this.allCompleted() }}
             />
             <stencil-route url='/completed'
-              component='todo-list' router='#router'
+              component='todo-list'
               componentProps={{ todos: this.getCompleted(), allCompleted: this.allCompleted() }}
             />
           </stencil-router>
@@ -134,13 +134,13 @@ export class TodoMvc {
                 left</span>
               <ul class='filters'>
                 <li>
-                  <stencil-route-link url='/' exact={true} router='#router' activeClass='selected'>All</stencil-route-link>
+                  <stencil-route-link url='/' exact={true} activeClass='selected'>All</stencil-route-link>
                 </li>
                 <li>
-                  <stencil-route-link url='/active' router='#router' activeClass='selected'>Active</stencil-route-link>
+                  <stencil-route-link url='/active' activeClass='selected'>Active</stencil-route-link>
                 </li>
                 <li>
-                  <stencil-route-link url='/completed' router='#router' activeClass='selected'>Completed</stencil-route-link>
+                  <stencil-route-link url='/completed' activeClass='selected'>Completed</stencil-route-link>
                 </li>
               </ul>
               {this.getCompleted().length > 0 ?
