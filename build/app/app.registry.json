@@ -3,7 +3,10 @@
   "components": [
     [
       "stencil-async-content",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -20,7 +23,10 @@
     ],
     [
       "stencil-route",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -81,7 +87,10 @@
     ],
     [
       "stencil-route-link",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -138,7 +147,10 @@
     ],
     [
       "stencil-route-title",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -158,7 +170,10 @@
     ],
     [
       "stencil-router",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -190,7 +205,10 @@
     ],
     [
       "stencil-router-redirect",
-      "5e3mm8py",
+      [
+        "xyfissap",
+        "pbssls7g"
+      ],
       0,
       [
         [
@@ -210,11 +228,17 @@
     ],
     [
       "test-app",
-      "cv7cbtbi"
+      [
+        "cv7cbtbi",
+        "orsdhirh"
+      ]
     ],
     [
       "test-demo-four",
-      "cv7cbtbi",
+      [
+        "cv7cbtbi",
+        "orsdhirh"
+      ],
       0,
       [
         [
@@ -239,7 +263,10 @@
     ],
     [
       "test-demo-six",
-      "cv7cbtbi",
+      [
+        "cv7cbtbi",
+        "orsdhirh"
+      ],
       0,
       [
         [
@@ -264,7 +291,10 @@
     ],
     [
       "test-demo-three",
-      "cv7cbtbi",
+      [
+        "cv7cbtbi",
+        "orsdhirh"
+      ],
       0,
       [
         [
@@ -289,7 +319,10 @@
     ],
     [
       "todo-list",
-      "n90yxkmc",
+      [
+        "zfdsb0ru",
+        "butkeid7"
+      ],
       1,
       [
         [
@@ -300,13 +333,18 @@
         ],
         [
           "todos",
+          1,
+          1,
           1
         ]
       ]
     ],
     [
       "todo-mvc",
-      "n90yxkmc",
+      [
+        "zfdsb0ru",
+        "butkeid7"
+      ],
       1,
       [
         [
@@ -318,26 +356,29 @@
       0,
       [
         [
-          "deleted",
-          "deleted"
+          "toggledCompleted",
+          "toggledCompleted"
         ],
         [
           "toggledAllCompleted",
           "toggledAllCompleted"
         ],
         [
-          "toggledCompleted",
-          "toggledCompleted"
-        ],
-        [
           "updatedTitle",
           "updatedTitle"
+        ],
+        [
+          "deleted",
+          "deleted"
         ]
       ]
     ],
     [
       "todo-view",
-      "n90yxkmc",
+      [
+        "zfdsb0ru",
+        "butkeid7"
+      ],
       1,
       [
         [
@@ -346,13 +387,15 @@
         ],
         [
           "todo",
+          1,
+          1,
           1
         ]
       ]
     ]
   ],
-  "loader": "../app.js",
   "global": "app.global.js",
-  "core": "app.hyykteyc.js",
-  "corePolyfilled": "app.l9sq98xw.js"
+  "core": "app.9reafjny.js",
+  "coreSsr": "app.oymxxdod.js",
+  "corePolyfilled": "app.gq0itnbj.js"
 }
