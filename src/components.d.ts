@@ -6,93 +6,97 @@
 
 import '@stencil/router';
 
-import { TodoList as TodoList } from './components/todo-list/todo-list';
+import {
+  Todo,
+} from './todo';
 
-interface HTMLTodoListElement extends TodoList, HTMLElement {
-}
-declare var HTMLTodoListElement: {
-  prototype: HTMLTodoListElement;
-  new (): HTMLTodoListElement;
-};
+import {
+  TodoList as TodoList
+} from './components/todo-list/todo-list';
+
 declare global {
+  interface HTMLTodoListElement extends TodoList, HTMLElement {
+  }
+  var HTMLTodoListElement: {
+    prototype: HTMLTodoListElement;
+    new (): HTMLTodoListElement;
+  };
   interface HTMLElementTagNameMap {
-      "todo-list": HTMLTodoListElement;
+    "todo-list": HTMLTodoListElement;
   }
   interface ElementTagNameMap {
-      "todo-list": HTMLTodoListElement;
+    "todo-list": HTMLTodoListElement;
   }
   namespace JSX {
-      interface IntrinsicElements {
-          "todo-list": JSXElements.TodoListAttributes;
-      }
+    interface IntrinsicElements {
+      "todo-list": JSXElements.TodoListAttributes;
+    }
   }
   namespace JSXElements {
-      export interface TodoListAttributes extends HTMLAttributes {
-          mode?: string,
-          color?: string,
-        
-          todos?: any,
-          allCompleted?: boolean
-      }
+    export interface TodoListAttributes extends HTMLAttributes {
+      allCompleted?: boolean;
+      todos?: Todo[];
+    }
   }
 }
 
-import { TodoMvc as TodoMvc } from './components/todo-mvc/todo-mvc';
 
-interface HTMLTodoMvcElement extends TodoMvc, HTMLElement {
-}
-declare var HTMLTodoMvcElement: {
-  prototype: HTMLTodoMvcElement;
-  new (): HTMLTodoMvcElement;
-};
+import {
+  TodoMvc as TodoMvc
+} from './components/todo-mvc/todo-mvc';
+
 declare global {
+  interface HTMLTodoMvcElement extends TodoMvc, HTMLElement {
+  }
+  var HTMLTodoMvcElement: {
+    prototype: HTMLTodoMvcElement;
+    new (): HTMLTodoMvcElement;
+  };
   interface HTMLElementTagNameMap {
-      "todo-mvc": HTMLTodoMvcElement;
+    "todo-mvc": HTMLTodoMvcElement;
   }
   interface ElementTagNameMap {
-      "todo-mvc": HTMLTodoMvcElement;
+    "todo-mvc": HTMLTodoMvcElement;
   }
   namespace JSX {
-      interface IntrinsicElements {
-          "todo-mvc": JSXElements.TodoMvcAttributes;
-      }
+    interface IntrinsicElements {
+      "todo-mvc": JSXElements.TodoMvcAttributes;
+    }
   }
   namespace JSXElements {
-      export interface TodoMvcAttributes extends HTMLAttributes {
-          mode?: string,
-          color?: string,
-        
-      }
+    export interface TodoMvcAttributes extends HTMLAttributes {
+      
+    }
   }
 }
 
-import { TodoView as TodoView } from './components/todo-view/todo-view';
 
-interface HTMLTodoViewElement extends TodoView, HTMLElement {
-}
-declare var HTMLTodoViewElement: {
-  prototype: HTMLTodoViewElement;
-  new (): HTMLTodoViewElement;
-};
+import {
+  TodoView as TodoView
+} from './components/todo-view/todo-view';
+
 declare global {
+  interface HTMLTodoViewElement extends TodoView, HTMLElement {
+  }
+  var HTMLTodoViewElement: {
+    prototype: HTMLTodoViewElement;
+    new (): HTMLTodoViewElement;
+  };
   interface HTMLElementTagNameMap {
-      "todo-view": HTMLTodoViewElement;
+    "todo-view": HTMLTodoViewElement;
   }
   interface ElementTagNameMap {
-      "todo-view": HTMLTodoViewElement;
+    "todo-view": HTMLTodoViewElement;
   }
   namespace JSX {
-      interface IntrinsicElements {
-          "todo-view": JSXElements.TodoViewAttributes;
-      }
+    interface IntrinsicElements {
+      "todo-view": JSXElements.TodoViewAttributes;
+    }
   }
   namespace JSXElements {
-      export interface TodoViewAttributes extends HTMLAttributes {
-          mode?: string,
-          color?: string,
-        
-          todo?: any
-      }
+    export interface TodoViewAttributes extends HTMLAttributes {
+      todo?: Todo;
+    }
   }
 }
 

@@ -15,15 +15,15 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "0.0.7",
+    "@stencil/core": "0.1.0",
     "@stencil/dev-server": "0.0.17",
-    "@stencil/router": "0.0.17",
+    "@stencil/router": "0.0.21",
     "@stencil/utils": "0.0.4",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.4",
-    "tslint": "^5.7.0",
-    "typescript": "2.5.2"
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
   },
   "repository": {
     "type": "git",
